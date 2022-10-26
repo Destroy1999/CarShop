@@ -1,0 +1,90 @@
+nav{
+    width: 90%;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+nav ul{
+    float: right;
+    margin-top: 25px;
+}
+
+nav ul li{
+    float: left;
+    border-right: solid 1px white;
+    padding: 5px 30px 5px;
+    list-style: none;
+}
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 17px;
+}
+
+nav ul li:first-child a{
+    color: red;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+h1{
+    color: white;
+    float: left;
+    font-size: 50px;
+}
+
+.contBTN{
+    width: 325px;
+    background-color: initial;
+    color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    padding: 0.5%;
+    /*margin-left: 41.7%;*/
+    transition: .5s;
+}
+
+.contBTN:hover{
+    color: red;
+    border-color: red;
+}
+
+.contIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    color: white;
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactControls{
+    width: 59%;
+    margin-left: auto;
+    margin-top: 25px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactController{
+    width: 90%;
+    margin: 0 auto;
+}

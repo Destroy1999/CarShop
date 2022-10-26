@@ -1,0 +1,63 @@
+h3{
+    color: white;
+}
+
+.itemsContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.hotLot{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    float: left;
+    font-size: 50px;
+}
+
+.hotLine{
+    width: 65%;
+    height: .5px;
+    background-color: white;
+    float: right;
+}
+
+.items{
+    width: 250px;
+    float: left;
+}
+
+.itemTextUp{
+    margin-top: 10px;
+}
+
+.itemTextDown{
+    margin-top: 25px;
+}
+
+.itemBTN{
+    width: 100%;
+    padding: 4% 0;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: initial;
+    color: white;
+    font-size: 22px;
+    border: solid 1px white;
+}
+
+.itemBTN:hover{
+    border-color: red;
+    color: red;
+}

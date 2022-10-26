@@ -1,0 +1,32 @@
+.sec4Container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0 0;
+}
+
+.sec4TextCont{
+    /*width: 48%;*/
+    width: 550px;
+}
+
+.sec4Par{
+    font-weight: normal;
+}
+
+.sec4Par:nth-child(1){
+    font-size: 23px;
+    padding: 0 0 50px 0;
+}
+
+.sec4Par:nth-child(1n+2){
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.sec4Img{
+    /*width: 48%;*/
+    width: 550px;
+}

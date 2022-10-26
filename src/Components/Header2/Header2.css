@@ -1,0 +1,27 @@
+.head2Container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0 0;
+}
+
+.head2h2d h3{
+    color: white;
+    font-size: 30px;
+}
+
+.headLine{
+    width: 7%;
+    height: 8px;
+    background-color: red;
+    border-radius: 0 10px 10px 0;
+}
+
+.head2Text{
+    padding: 20px 0;
+}
+
+.head2Text p{
+    width: 62%;
+    font-size: 17px;
+    font-weight: normal;
+}

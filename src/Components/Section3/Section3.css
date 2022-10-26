@@ -1,0 +1,37 @@
+.sec3Container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec3Item{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.sec3Item h2{
+    width: 82%;
+    font-weight: normal;
+}
+
+.sec3Item h3{
+    width: 82%;
+    font-weight: normal;
+}
+
+.sec3FinBTN{
+    background-color: initial;
+    color: white;
+    border: solid 1px white;
+    padding: 1.2% 2.5%;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.sec3FinBTN:hover{
+    color: red;
+    border-color: red;
+}
+

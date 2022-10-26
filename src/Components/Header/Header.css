@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.imgContainer{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.hImgText{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    padding: 25px;
+    background-color: #00000069;
+}
+
+.hImgText p{
+    color: white;
+    font-size: 50px;
+    max-width: 75%;
+}
+
+.hImgBTN{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    margin-top: 500px;
+}
+
+.hImgBTN button{
+    background: linear-gradient(darkred,red);
+    color: white;
+    border: none;
+    padding: 20px;
+    width: 250px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.hImgBTN button:hover{
+    background: linear-gradient(red,red);
+}
+
+.imgContainer img{
+    position: relative;
+    animation: carslide 40s ease-in-out infinite;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    animation-delay: .5s;
+    top: 0px;
+}
+
+@keyframes carslide {
+    0%      {top: 0px;}
+    7.14%   {top: 0px;}
+    14.28%  {top: -605px;}
+    21.42%  {top: -605px;}
+    28.56%  {top: -1205px;}
+    35.7%   {top: -1205px;}
+    42.84%  {top: -1810px;}
+    49.98%  {top: -1810px;}
+    57.12%  {top: -1205px;}
+    64.26%  {top: -1205px;}
+    71.4%   {top: -605px;}
+    78.54%  {top: -605px;}
+    85.68%  {top: 0px;}
+    100%    {top: 0px;}
+}
